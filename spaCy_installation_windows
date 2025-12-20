@@ -1,0 +1,28 @@
+##### Install Python + spaCy using Miniconda (Windows setup) #####
+
+# These instructions will have you:
+#    1. Install a tool called Miniconda (it manages Python environments)
+#    2. Create a separate Python environment just for spaCy (so nothing conflicts)
+#    3. Install spaCy and the English language model
+#    4. Tell R’s spacyr package to use that Python
+
+
+### Step 0: Close RStudio (recommended)
+#    If RStudio is open, close it. This prevents R from “locking onto” an old Python during setup.
+
+
+### Step 1: Install Miniconda
+#    1. Open your web browser and search: “Miniconda download Windows”
+#    2. Download Miniconda3 Windows 64-bit (x86_64).
+#    3. Run the installer.
+#    4. During install:
+#        -Choose Just Me (easiest)
+#        -Keep the default install location
+#        -If you see an option like “Add Miniconda to PATH”: it’s okay either way. (Not required if you always use Anaconda Prompt, which you will).
+#    5. When finished, you should have an app called “Anaconda Prompt” in your Start menu.
+
+
+### Step 2: Open Anaconda Prompt
+#    1. Click the Windows Start button
+#    2. Type: Anaconda Prompt
+#    3. Open it. You’ll see a black terminal window with text.
