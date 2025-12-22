@@ -27,11 +27,63 @@
 #    2. Type: Anaconda Prompt
 #    3. Open it. You’ll see a black terminal window with text.
 
-## Step 3: Create a Python environment for spaCy
 
-### Step 3: In **Anaconda Prompt**, copy/paste this and press Enter:
+## Step 3: Create a Python environment for spaCy
+#    1. In **Anaconda Prompt**, copy/paste this and press Enter:
+```
 conda create -n spacyr-env python=3.11 -y
-# This creates a new environment named spacyr-env with Python 3.11.
+```
+#    2. What this does:
+        -This creates a new environment named spacyr-env with Python 3.11.
+        -Creates a new environment named spacyr-env
+        -Installs Python 3.11 inside it. This may take a minute. You’ll see a lot of text scrolling—normal.
+
+
+### Step 4: Activate the environment
+#    1. Still in Anaconda Prompt, run:
+```
+conda activate spacyr-env
+```
+#    2. When it’s activated, you should see something like this at the start of the line:
+```
+(spacyr-env) C:\...
+```
+#    3. That (spacyr-env) is important. It means you’re installing things into the right place.
+
+
+### Step 5: Install spaCy
+#    1. Now install spaCy:
+```
+python -m pip install -U pip
+python -m pip install spacy
+```
+#    2. If it prints a lot of download/install messages, that’s good.
+
+
+### Step 6: Install the English language model
+#    1. spaCy needs a language model to do parsing. Run:
+```
+python -m spacy download en_core_web_sm
+```
+#    2. Success looks like: “Successfully installed en_core_web_sm …” (wording varies).
+
+
+### Step 7: Find the exact Python path you just set up
+#    1. This matters because you’ll paste it into R. In Anaconda Prompt, run:
+```
+where python
+```
+#    2. You’ll see one or more paths. You want the one that includes:
+```
+...\envs\spacyr-env\python.exe
+```
+#    3. For example:
+```
+C:\Users\Vivian\miniconda3\envs\spacyr-env\python.exe
+```
+
+### Step 8: 
+
 
 
 
