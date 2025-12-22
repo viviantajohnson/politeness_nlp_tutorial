@@ -26,3 +26,17 @@
 #    1. Click the Windows Start button
 #    2. Type: Anaconda Prompt
 #    3. Open it. You’ll see a black terminal window with text.
+
+## Step 3: Create a Python environment for spaCy
+
+### Step 3: In **Anaconda Prompt**, copy/paste this and press Enter:
+conda create -n spacyr-env python=3.11 -y
+# This creates a new environment named spacyr-env with Python 3.11.
+
+
+
+
+
+
+
+
