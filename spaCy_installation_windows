@@ -30,8 +30,7 @@
 
 ## Step 3: Create a Python environment for spaCy
 #    1. In **Anaconda Prompt**, copy/paste this and press Enter:
-```
-conda create -n spacyr-env python=3.11 -y
+```conda create -n spacyr-env python=3.11 -y
 ```
 #    2. What this does:
         -This creates a new environment named spacyr-env with Python 3.11.
