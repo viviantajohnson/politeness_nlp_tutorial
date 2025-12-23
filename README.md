@@ -1,4 +1,4 @@
-# politeness_nlp_tutorial
+# Politeness NLP R Package Tutorial
 
 This tutorial shows how to analyze open-ended text stored in a dataset using the ```politeness``` R package. It walks through loading sample data (_cmv_sample_data.xlsx_) and extracting politeness-related linguistic features from text (e.g., gratitude, hedges, apologies, requests). Click [here](https://cran.r-project.org/web/packages/politeness/vignettes/politeness.html) for more information about the ```politeness``` R package, including descriptions of each linguistic feature.  
 
